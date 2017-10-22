@@ -1,5 +1,5 @@
 """Test 0s and 1s with wildcards."""
-# from functools import reduce
+
 import pytest
 
 WILDCARD_LIST = [('101?', ['1010', '1011']),
