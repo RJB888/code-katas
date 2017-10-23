@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(
-
+  
     name='day of code',
     description='Day of code katas.',
     package_dir={'': 'src'},
