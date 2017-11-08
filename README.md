@@ -31,3 +31,8 @@
 - **Tests**: `test_grouped_by_commas.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/grouped-by-commas)
 
+**Proper Parenthetics (5th Kyu)**
+
+- **Module**: `parenthetics.py`
+- **Tests**: `test_parenthetics.py`
+- **URL**: [challenge URL](https://www.codewars.com/kata/valid-parentheses/train/python)
