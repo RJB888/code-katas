@@ -96,20 +96,17 @@ def proper_parenthetics(string):
     for num in range(new_ll.size()):
         newlist.append(new_ll.pop())
     newlist.reverse()
-
-    if newlist[0] == ")":
-        return -1
-    elif newlist[-1] == "(":
-        return 1
-    paren_count = 0
+    open_count = 0
     for char in newlist:
-        if char == "(":
-            paren_count += 1
+        if open_count == 0 and char == ")":
+            return -1
+        elif char == "(":
+            open_count += 1
         elif char == ")":
-            paren_count -= 1
+            open_count -= 1
 
-    if paren_count < 0:
+    if open_count < 0:
         return -1
-    elif paren_count > 0:
+    elif open_count > 0:
         return 1
     return 0
