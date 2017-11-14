@@ -31,3 +31,8 @@
 - **Tests**: `test_grouped_by_commas.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/grouped-by-commas)
 
+**Sort a Deck of Cards (7th kyu)**
+
+- **Module**: `sort_cards.py`
+- **Tests**: `test_sort_cards.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/sort-deck-of-cards/train/python)
